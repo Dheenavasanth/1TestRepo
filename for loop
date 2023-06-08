@@ -1,7 +1,8 @@
+print("Hello world")
+print("Hello world")
 foods=["pizza","chicken"]
 foods=set(foods)
 for food in foods:
-   if food=="pizza":
-   size=input("sizes)
-   print(f"ordered{size}")
-   print(food)
+   if food == "pizza":
+      size=input("enter the size :")
+   print(f"ordered {size} {food}")
